@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: ' ' Poppins', Tahoma, Geneva, Verdana, sans-serif;';
+    color: #EEE;
+}
+
+.navbar {
+    background-color: rgba(255, 231, 201, 0.87);
+    margin: 0;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 0 0;
+    font-size: 16px;
+
+}
+a.navbar-link{
+    text-align: center;
+    justify-content: center;
+}
+.navbar a {
+    color: rgb(103, 103, 103);
+    font-family: 'Poppins';
+}
+#brand-name {
+    font-family: 'Dancing Script', cursive;
+    background: #6c2537;
+    text-align: center;
+    color: rgb(218, 170, 134);
+    padding: 10px 5px;
+    font-size: xx-large;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+ 
+.fa-solid {
+    color:#6c2537;
+    padding: 10px;
+    font-size: 30px !important;
+    margin-left: 15px;
+}
+.fa-arrow-down-short-wide{
+    color: rgba(255, 231, 201, 0.87);
+}
+
+.fa-basket-shopping {
+    color: #6c2537;
+    font-size: 40px;
+    padding-inline-start: 550px;
+
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 475px !important;
+    border: 2px solid;
+}
+
+.urun {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 600;
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.icerikler {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.icerik button{
+   font-size: 14px !important;
+}
+
+.icerik {
+
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-family: 'Poppins';
+    text-align: left;
+    font-size: 14px;
+
+}
+.icerik button{
+    background-color:#6c2537;
+    color: rgba(255, 231, 201, 0.87);
+}
+.btn :hover{
+    background-color: #6c2537;
+    color: #6c2537;
+}
+
+.icerik img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#navbars {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer * {
+    font-size: 14px;
+    justify-content: left;
+    list-style-type: none;
+    text-align: left;
+    
+    
+}
+
+.footer li, ul,i p{
+  padding: 5px;
+  padding-left: 15px;
+ 
+  
+}
+
+.footer-icon * {
+    color: #6c2537;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 231, 201, 0.87);
+    margin-bottom: 0;
+    
+}
+#footer-name a{
+    color:rgba(255, 231, 201, 0.87);
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    padding: 15px;
+}
+.social a {
+    color: #6c2537;
+    width: 100%;
+    height: 100%;   
+}
+.fa-thin{
+    font-size:x-large;
+}
+
+.mb-1{
+    font-size: 16px;
+}
+
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0,0.8);
+    padding: 20px;
+    z-index: 1;
+  }
+.modal{
+    justify-content: center;
+    text-align: center;
+    border-color: #6c2537;
+    border-radius: 5px;
+    border: 2px;
+    display: none;
+    color: #6c2537;
+
+   
+}
+.modal li{
+    justify-content:left;
+    text-align: left;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+
+#logo-gift{
+    color: #6c2537 !important;
+}
+
+.form-group label{
+    color:#6c2537
+}
+.form-group :hover{
+      border: none;
+    
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: #6c2537;
+    font-size: 15px ;
+    color: rgba(255, 231, 201, 0.87);
+    text-align: left;
+    justify-content: left;
+    margin-top: 60px;
+
+}
+#nav-dropdown{
+padding: none;
+border: none;
+margin: none;
+}
+.dropdown-menu{
+
+    background-color: rgba(255, 231, 201, 0.87);
+    color: white;
+    font-size: 12px;
+}
+.dropdown-menu :hover{
+    background-color: #6c2537;
+    color: wheat;
+}
+
+#gift-card{
+    margin-top: 55px;
+    margin-bottom: 85px;
+    
+}
+
+
+  @media only screen and (max-width: 768px) {
+    .icerikler  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      text-align: center;
+    }
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .footer , .footer p {
+      grid-template-columns:auto;
+      text-align: center;
+      justify-content: center;
+      margin-top: 2rem;
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #nav-dropdown li{
+      grid-template-columns:auto;
+      text-align: center;
+      justify-content: center;
+      margin-top: 2rem;
+      
+    }
+  }
+ 
+    
